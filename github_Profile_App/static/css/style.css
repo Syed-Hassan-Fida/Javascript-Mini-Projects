@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    /* background: #ff6e7f;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to left, #bfe9ff, #ff6e7f);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to left, #bfe9ff, #ff6e7f); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    /* background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%); */
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+     /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #32035a, #290130); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card{
+    background: linear-gradient(to right, #1d0135, #110014); 
+    border-radius: 20px;
+    display: flex;
+    padding: 3rem;
+    box-shadow: 0 5px 10px rgba(98, 110, 158, 0.05),
+    0 15px 40px rgba(55, 75, 156, 0.2); 
+    max-width: 800px;
+    margin-bottom: 1rem;
+}
+
+.avatar{
+    border: 10px solid #2a2a72;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.user-info{
+    color: rgb(231, 229, 229);
+    margin: 2rem;
+}
+
+h3{
+    color: rgb(133, 130, 130);
+}
+
+h2{
+    margin-top: 0;
+}
+
+/* .img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.user-info ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    width: 400px;
+}
+
+input{
+    background-color: #4c2885;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-family: inherit;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 5px 10px rgba(49, 79, 202, 0.05),
+    0 10px 30px rgba(4, 29, 129, 0.2);
+}
+
+input::placeholder{
+    color: #bbb;
+    text-align: center;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+
+strong i.fa-heart{
+    color: rgb(231, 15, 15);
+    padding: 4px;
+}
+strong i.fa-eye{
+    color: rgb(14, 161, 14);
+    padding: 4px;
+}
+
+strong i.fa-github{
+    color: #272323;
+    padding: 4px;
+}
+
+span{
+    font-size: 0.8rem;
+    color: #bbb;
+    padding: 5px;
+}
+
+
+.repo{
+    background-color: #2a2a72;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    font-size: 0.7rem;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem; 
+}

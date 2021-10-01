@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator App</title>
+
+    <link rel="stylesheet" href="static/css/style.css">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- marked cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.0/marked.min.js" integrity="sha512-+yBiQ6q3TDGoiassGMt28VYghfGBtA74mN2W8oNTCi49BsvmBfOSoMMGRj6TYRV7CF2URkpyS61uJBgC3H/uzA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+</head>
+<body>
+    <h1>Password Generator App</h1>
+    <div class="pw-container">
+        <div class="pw-header">
+            <div class="pw" >
+                <span id="pw"></span>
+                <button id="copy">Copy To Clipboard</button>
+            </div>
+            
+        </div>
+        <div class="pw-body">
+            <div class="form-control">
+                <label for="len">Password Length</label>
+                <input type="number" id="len" value="10" min="4" max="40">
+            </div>
+            <div class="form-control">
+                <label for="upper">Contain Upper Case</label>
+                <input type="checkbox" id="upper">
+            </div>
+            <div class="form-control">
+                <label for="lower">Contain Lower Case</label>
+                <input type="checkbox" id="lower">
+            </div>
+            <div class="form-control">
+                <label for="number">Contain Numbers</label>
+                <input type="checkbox" id="number">
+            </div>
+            <div class="form-control">
+                <label for="symbol">Contain Symbols</label>
+                <input type="checkbox" id="symbol">
+            </div>
+            <button class="generate" id="generate">
+                Generate Password
+            </button>
+        </div>
+    </div>
+
+    
+    <script src="static/js/main.js"></script>
+</body>
+</html>

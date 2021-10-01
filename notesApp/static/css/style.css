@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    /* background: #ff6e7f;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to left, #bfe9ff, #ff6e7f);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to left, #bfe9ff, #ff6e7f); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.notes{
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 20px;
+    height: 400px;
+    width: 400px;
+}
+
+
+.notes .tools{
+    background-color: #c157e1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+} 
+
+.notes .tools button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.notes .main{
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 400px;
+    width: 400px;
+}
+
+.notes textarea{
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 400px;
+    width: 400px;
+    
+}
+
+.main.hidden{
+    display: none;
+}
+
+.notes textarea.hidden{
+    display: none;
+} 
+
+.add{
+    background-color: rgb(202, 106, 41);
+    border-radius: 3px;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    top: 1rem;
+    right: 1rem; 
+    cursor: pointer;
+    box-shadow: 0 0 10px 2px rgb(85, 79, 79);
+}

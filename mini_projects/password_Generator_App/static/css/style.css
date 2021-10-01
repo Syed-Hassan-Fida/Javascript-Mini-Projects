@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    background: #34e89e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+     /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #32035a, #290130);  */
+    
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.pw-container{
+    background-color: #4ae6a5;
+    box-shadow: 0 5px 10px 5px #03613a;
+    min-width: 400px;
+}
+
+.pw-header{
+    padding: 1rem;
+}
+
+.pw{
+    background-color: #17744d;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    position: relative; 
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.pw button{
+    background-color: #0f3443;
+    position: absolute;
+    border: none;
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    bottom: 0;
+    right: 0;   
+    transform: translate(0, 80%); 
+    cursor: pointer;
+    transition: opacity 0.2s ease, opacity 0.2s ease; 
+    opacity: 0;
+}
+
+.pw:hover button{
+    opacity: 1;
+    transform: translate(0, -150%); 
+}
+
+.pw-body{
+    padding: 0 1rem 1rem;
+}
+
+.form-control{
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.75rem 0;
+}
+
+.generate{
+    background-color: #daa700;
+    border: none;
+    border-radius: 3px;
+    color: #022014;
+    /* display: block; */
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.pw-body button{
+    cursor: pointer;
+}

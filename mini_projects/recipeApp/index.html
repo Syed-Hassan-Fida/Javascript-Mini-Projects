@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+
+    <link rel="stylesheet" href="static/css/style.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" /> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    
+
+</head>
+<body>
+    <div class="mobile-container">
+        <h1>Recipe Card</h1>
+        
+        <header>
+            
+            <input type="text" id="search-term">
+            <button id="search"><i  class="material-icons">search</i></button>
+        
+        </header>
+
+        <div class="fav-container">
+            <h3>Favorite Meals</h3>
+            <ul class="fav-meals" id="fav-meals">
+                <!-- <li>
+                    <img src="https://www.themealdb.com/images/ingredients/Lime.png" alt="">
+                    <span>Lime</span>
+                </li>
+                <li>
+                    <img src="https://www.themealdb.com//images//media//meals//wqurxy1511453156.jpg" alt="">
+                    <span>Lazania</span>
+                </li>
+                <li>
+                    <img src="https://www.themealdb.com//images//media//meals//wxywrq1468235067.jpg" alt="">
+                    <span>Rice</span>
+                </li>
+
+                <li>
+                    <img src="https://www.themealdb.com//images//media//meals//wxywrq1468235067.jpg" alt="">
+                    <span>Rice</span>
+                </li>
+
+                <li>
+                    <img src="https://www.themealdb.com//images//media//meals//wxywrq1468235067.jpg" alt="">
+                    <span>Rice</span>
+                </li>
+
+                <li>
+                    <img src="https://www.themealdb.com//images//media//meals//wxywrq1468235067.jpg" alt="">
+                    <span>Rice</span>
+                </li>
+
+                <li>
+                    <img src="https://www.themealdb.com//images//media//meals//wxywrq1468235067.jpg" alt="">
+                    <span>Rice</span>
+                </li>
+
+                <li>
+                    <img src="https://www.themealdb.com//images//media//meals//wxywrq1468235067.jpg" alt="">
+                    <span>Rice</span>
+                </li> -->
+            </ul>
+        </div>
+
+        <div class="meals" id="meals">
+            <div class="meal" >
+                <!-- <div class="meal-header">
+                    <span class="random">
+                        Random Recipe
+                    </span>
+                    <img src="https:\/\/www.themealdb.com\/images\/media\/meals\/do7zps1614349775.jpg" alt="">
+                </div>
+                
+                <div class="meal-body" id="meals">
+                    <h4>Veggie Veggies</h4>
+                    <button class="fav-btn">
+                        <i class="material-icons">favorite_border</i>
+                    </button>
+                </div>
+                -->
+            </div>
+        </div>
+
+        <div class="popup-container hidden"  id="meal-popup">
+            <div class="popup">
+                
+                    <button id="close-popup" class="close-popup">
+                        <i class="fas fa-times"></i>
+                    </button>
+
+                <div id="meal-info" class="meal-info">
+                    <!-- <h1>Meal Title</h1>
+                    <img src="https:\/\/www.themealdb.com\/images\/media\/meals\/do7zps1614349775.jpg" 
+                    alt="">
+                    <p>instruction</p>
+                    <ul>
+                        <li>ing 1</li>
+                        <li>ing 2</li>
+                        <li>ing 3</li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="static/js/main.js"></script>
+</body>
+</html>

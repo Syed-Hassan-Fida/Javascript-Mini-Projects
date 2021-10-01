@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    /* background: #ff6e7f;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to left, #bfe9ff, #ff6e7f);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to left, #bfe9ff, #ff6e7f); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    /* background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%); */
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+     /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #32035a, #290130); 
+    
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+canvas{
+    border: 1px solid black;
+    background-color: blanchedalmond;
+}
+
+.toolbox{
+    background-color: rgb(58, 58, 180);
+    display: flex;
+    padding: 1rem;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.toolbox > *{
+    background-color: antiquewhite;
+    border: none;
+    font-size: 2rem;
+    padding: 0.25rem;
+    margin: 0.25rem;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    border-radius: 8px;
+    height: 50px;
+    width: 50px; 
+}
+
+
+.toolbox .clear{
+    margin-left: auto;
+
+}
+
+
